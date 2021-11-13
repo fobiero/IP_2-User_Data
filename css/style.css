@@ -4,47 +4,75 @@
     box-sizing: border-box;
 }
 
-html,
 body {
     scroll-behavior: smooth;
+    color: #fff;
 }
 
-.header {
+.wrapper {
+    background-attachment: fixed;
+    height: 100vh;
+    background-image: url(../images/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding: 3rem 0;
     text-align: center;
-    justify-content: center;
-    justify-content: center;
-    padding: 1rem 0;
-    /* position: fixed; */
-    /* width: 100%; */
 }
 
-.header p {
+header p {
     font-size: 2rem;
+    color: #fff;
 }
 
-.header p a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.content {
-    align-items: center;
-    padding: 5rem 0;
-    position: absolute;
+.main-content {
+    padding: 10rem 0;
 }
 
 form {
-    border: 1px solid #eee;
-    padding: 10rem 2rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
 }
 
-.dob {
-    display: flex;
+form h3 {
+    text-align: center;
 }
 
-.dob input {
-    width: 60%;
-    padding: .4rem 0;
-    margin: 0 .3rem;
+input {
+    margin: 1rem .5rem;
+    width: 100%;
+    padding: .5rem;
+    outline: none;
+    background: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    border: 2px solid #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.form-group {
+    width: 100%;
+    padding: 1rem 0 1rem .5rem;
+}
+
+label {
+    font-size: 1.3rem;
+    margin: 0 .4rem 0 .1rem;
+}
+
+select {
+    cursor: pointer;
+    width: 180px;
+    padding: .5rem 0;
+}
+
+button {
+    width: 100%;
+    padding: .7rem 4rem;
 }
