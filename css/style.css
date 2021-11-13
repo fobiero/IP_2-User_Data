@@ -26,3 +26,25 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+.content {
+    align-items: center;
+    padding: 5rem 0;
+    position: absolute;
+}
+
+form {
+    border: 1px solid #eee;
+    padding: 10rem 2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dob {
+    display: flex;
+}
+
+.dob input {
+    width: 60%;
+    padding: .4rem 0;
+    margin: 0 .3rem;
+}
