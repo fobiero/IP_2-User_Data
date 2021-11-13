@@ -86,4 +86,10 @@ select {
 button {
     width: 100%;
     padding: .7rem 4rem;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+button i {
+    font-size: 1.5rem;
 }
