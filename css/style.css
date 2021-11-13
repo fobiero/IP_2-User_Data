@@ -11,7 +11,6 @@ body {
 
 .wrapper {
     background-attachment: fixed;
-    height: 100vh;
     background-image: url(../images/bg-1.jpg);
     background-size: cover;
     background-position: center;
@@ -28,16 +27,28 @@ header p {
     color: #fff;
 }
 
+header p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header p a:hover {
+    color: #fff;
+}
+
 .main-content {
     padding: 10rem 0;
 }
 
 form {
+    background-color: rgba(60, 60, 60, 0.3);
+    padding: 4rem 0;
     /* text-align: center; */
 }
 
 form h3 {
     text-align: center;
+    font-size: 2rem;
 }
 
 input {
