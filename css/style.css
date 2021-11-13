@@ -40,6 +40,33 @@ header p a:hover {
     padding: 10rem 0;
 }
 
+.main-content h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+}
+
+.main-content p {
+    font-size: 1.3rem;
+    font-weight: 250;
+    line-height: 2.5rem;
+}
+
+#fill-check {
+    font-weight: 300;
+}
+
+#fill-check::after {
+    content: " -- >";
+    margin-left: .6rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#fill-check:hover {
+    opacity: .4;
+}
+
 form {
     background-color: rgba(60, 60, 60, 0.3);
     padding: 4rem 0;
@@ -88,8 +115,10 @@ button {
     padding: .7rem 4rem;
     align-items: center;
     font-size: 1.2rem;
+    border: none;
 }
 
 button i {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-right: .5rem;
 }
