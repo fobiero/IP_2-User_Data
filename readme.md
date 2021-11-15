@@ -13,7 +13,7 @@
 <hr>
 
 ## Description.
-The purpose for this project (website) is to get User brn dates and assign an Akan name. Name derived from Ghana and thus for both men and women
+The purpose for this project (website) is to get User date as date of birth and assign an Akan name. Name derived from Ghana tribe and thus for both men and women
 
 <ol>
     <li>Author: felix Obiero</li> 
