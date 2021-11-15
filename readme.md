@@ -22,7 +22,7 @@ The purpose for this project (website) is to get User date as date of birth and 
 </ol>
 
 ## Setup & Installations.
-The System basically accepts user input and gives Akan name as a feedback.!
+The System basically accepts user input and gives Akan name as an Output.!
 
 <br/>
 
