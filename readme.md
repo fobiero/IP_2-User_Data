@@ -13,7 +13,7 @@
 <hr>
 
 ## Description.
-The purpose for this project (website) to to show my online prescence so and thus be able to communicate with clients and job recruits.
+The purpose for this project (website) is to get User brn dates and assign an Akan name. Name derived from Ghana and thus for both men and women
 
 <ol>
     <li>Author: felix Obiero</li> 
@@ -22,7 +22,7 @@ The purpose for this project (website) to to show my online prescence so and thu
 </ol>
 
 ## Setup & Installations.
-The website provides more infomation about me, tools and skills used, licence and contact info .
+The System basically accepts user input and gives Akan name as a feedback.!
 
 <br/>
 
@@ -32,7 +32,7 @@ The development build has used different technologies .i.e JavaScript, HTML5, CS
 <br/>
 
 ## Support and Contact details.
-I am flexible and working on the different timings on scheduled as follows. 
+Changes and updates to this project are there done on the different timings on scheduled as follows. 
 
 <ul>
     <li>Mon - Sat : 8AM - 5PM</li>
