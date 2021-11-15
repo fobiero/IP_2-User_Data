@@ -31,14 +31,14 @@
                         <div class="container formdata">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="date" placeholder="enter date of birth" id="dob">
+                                    <input type="date" placeholder="enter date of birth" id="dateInput">
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="Gender">Gender</label>
                                         <select name="Gender" id="gender">
-                                            <option value="" id="female">Female</option>
-                                            <option value="" id="male">Male</option>
+                                            <option value="female" >Female</option>
+                                            <option value="male">Male</option>
                                         </select>
                                     </div>
                                 </div>
@@ -47,7 +47,7 @@
                         <div class="container sel-sub">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <button class="btn-submit" onclick="checkData()"><i class="fas fa-code-branch"></i> Check Name</button>
+                                    <button class="btn-submit" onclick="getValue()"><i class="fas fa-code-branch"></i> Check Name</button>
                                 </div>
                             </div>
                         </div>
