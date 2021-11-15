@@ -22,7 +22,7 @@
                 <div class="col-md-6 col-lg">
                     <h1>Akan naming</h1>
                     <p>Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date and also we are able to allocate you with
-                        akan birth names respective on your birth day. <span id="fill-check"><em>Fill your data to check!</em></span>
+                        akan birth names respective on your birth day. <span id="fill-check">Fill your data to check!</span>
                     </p>
                 </div>
                 <div class="col-md-6 col-lg">
@@ -30,19 +30,9 @@
                         <h3>fill data</h3>
                         <div class="container formdata">
                             <div class="row">
-                                <div class="col-md-4">
-                                    <input type="text" id="day" placeholder="enter Day">
+                                <div class="col-md-6">
+                                    <input type="date" placeholder="enter date of birth" id="dob">
                                 </div>
-                                <div class="col-md-4">
-                                    <input type="text" id="month" placeholder="enter Month">
-                                </div>
-                                <div class="col-md-4">
-                                    <input type="text" id="year" placeholder="enter Year">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container sel-sub">
-                            <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="Gender">Gender</label>
@@ -52,7 +42,11 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                            </div>
+                        </div>
+                        <div class="container sel-sub">
+                            <div class="row">
+                                <div class="col-md-12">
                                     <button class="btn-submit" onclick="checkData()"><i class="fas fa-code-branch"></i> Check Name</button>
                                 </div>
                             </div>
