@@ -68,6 +68,7 @@ header p a:hover {
 }
 
 form {
+    align-items: center;
     background-color: rgba(60, 60, 60, 0.3);
     padding: 4rem 0;
     /* text-align: center; */
@@ -76,6 +77,10 @@ form {
 form h3 {
     text-align: center;
     font-size: 2rem;
+}
+
+.formdata {
+    align-items: center;
 }
 
 input {
@@ -100,13 +105,13 @@ input::placeholder {
 }
 
 label {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin: 0 .4rem 0 .1rem;
 }
 
 select {
     cursor: pointer;
-    width: 180px;
+    width: 160px;
     padding: .5rem 0;
 }
 
