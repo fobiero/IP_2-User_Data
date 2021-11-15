@@ -27,7 +27,7 @@ The System basically accepts user input and gives Akan name as an Output.!
 <br/>
 
 ## Technologies Used.
-The development build has used different technologies .i.e JavaScript, HTML5, CSS3, Bootstrap, JQuery, font-awesome. 
+The development build has used different technologies .i.e JavaScript, HTML5, CSS3, Bootstrap, font-awesome. 
 
 <br/>
 
